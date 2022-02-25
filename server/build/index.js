@@ -8,8 +8,6 @@ var express_1 = __importDefault(require("express"));
 var express_session_1 = __importDefault(require("express-session"));
 var AppRouter_1 = require("./AppRouter");
 require("./controllers/LoginController");
-require("./controllers/RootController");
-require("./controllers/TrenController");
 require("./controllers/ProductController");
 require("./controllers/OrderController");
 var body_parser_1 = require("body-parser");
