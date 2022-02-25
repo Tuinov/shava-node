@@ -18,6 +18,7 @@ var app = (0, express_1.default)();
 app.use((0, body_parser_1.json)());
 app.use(express_1.default.urlencoded({ extended: true }));
 // app.use(cookieSession({ keys: ['asfadsfadfs'] }));
+// app.use(express.static(path.resolve(__dirname, '../client/build')));
 app.use((0, express_session_1.default)({
     secret: 'sjsjkfrjkfkrjf',
     resave: true,
